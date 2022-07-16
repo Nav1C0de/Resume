@@ -1,0 +1,161 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: fantasy, sans-serif;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+/* HOME */
+#home {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 7rem;
+    
+}
+
+#home .container-fluid {
+    padding: 0px;
+}
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.navbar-toggler-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.nav-item {
+    padding: 0 10px;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.container-fluid {
+    padding: 7% 10%;
+}
+
+.material-symbols-outlined{
+    text-shadow: -1.5px 0 whitesmoke, 0 1.5px whitesmoke, 1.5px 0 whitesmoke, 0 -1.5px whitesmoke;
+}
+
+.material-symbols-outlined:hover{
+    color: palegoldenrod;
+}
+
+/* NAVIGATION BAR + TITLE + LINKS */
+.textTitle h1 {
+    font-family: 'Pacifico', cursive , sans-serif;    
+    line-height: 1.5;
+    text-align: left;
+    font-size: 60px;
+    padding-left: 1.5rem;
+    text-shadow: -1.5px 0 whitesmoke, 0 1.5px whitesmoke, 1.5px 0 whitesmoke, 0 -1.5px whitesmoke;
+}
+
+.dpImage {
+    background-image:linear-gradient(to right, rgb(151, 106, 42), rgb(239, 137, 5));
+    border-radius: 100%;
+    height: 220px;
+    margin: 4rem;
+    padding: 1px 1px; 
+    position: relative; 
+}
+
+#mediaLinks {
+    padding: 4rem;
+    position: relative;
+    text-align: center;
+}
+
+#mediaLinks .material-symbols-outlined{
+    margin: 50px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#testimonials {
+    background-color: salmon;
+    color: seashell;
+}
+
+.carousel-item {
+    padding: 4rem;
+}
+
+.imageTestimonial {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.testimonialtext {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#press {
+    background-color: salmon;
+}
+
+.imageLogos {
+    padding: 2rem;
+    width: 10rem;
+}
+
+#pricing {
+    padding: 2rem;
+}
+
+.card {
+    margin: 2rem;
+}
+
+#cta {
+    background-color: salmon;
+    color: seashell;
+    padding: 2rem;
+}
+
+
+
+/* START 1200 PX NARROW VIEW */
+
+@media (max-width: 900px) {
+
+.textTitle {
+    text-align: center;
+}
+
+.titleImage {
+    transform: rotate(0deg);
+    height: 450px;
+    margin: 2rem;    
+}
+
+#mediaLinks .material-symbols-outlined{
+    margin: 30px 20px;
+}
+
+}
