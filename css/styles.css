@@ -142,7 +142,7 @@ p {
 
 /* START 1200 PX NARROW VIEW */
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
 
 .textTitle {
     text-align: center;
