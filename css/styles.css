@@ -5,7 +5,13 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: fantasy, sans-serif;
+    font-family: 'estonia', sans-serif;
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+h4{
+    font-family: 'estonia', sans-serif;
     font-size: 2rem;
 }
 
@@ -13,11 +19,15 @@ p {
     font-size: 1rem;
 }
 
+td {
+    font-size: 2rem;
+    padding: 0 5rem;
+}
+
 /* HOME */
 #home {
     font-family: 'Montserrat', sans-serif;
-    padding: 0 7rem;
-    
+    padding: 0 7rem;  
 }
 
 #home .container-fluid {
@@ -53,16 +63,17 @@ p {
 
 /* NAVIGATION BAR + TITLE + LINKS */
 .textTitle h1 {
+    color: black;
     font-family: 'Pacifico', cursive , sans-serif;    
     line-height: 1.5;
     text-align: left;
-    font-size: 60px;
+    font-size: 4.5rem;
     padding-left: 1.5rem;
     text-shadow: -1.5px 0 whitesmoke, 0 1.5px whitesmoke, 1.5px 0 whitesmoke, 0 -1.5px whitesmoke;
 }
 
 .dpImage {
-    background-image:linear-gradient(to right, rgb(151, 106, 42), rgb(239, 137, 5));
+    background-image:linear-gradient(to right, brown, rgb(239, 137, 5));
     border-radius: 100%;
     height: 220px;
     margin: 4rem;
@@ -77,54 +88,32 @@ p {
 }
 
 #mediaLinks .material-symbols-outlined{
-    margin: 50px 40px;
+    margin: 2rem;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-#testimonials {
-    background-color: salmon;
-    color: seashell;
+#about {
+    padding: 0 7rem;
+    margin: 7rem 0rem;
 }
 
-.carousel-item {
-    padding: 4rem;
+.textAbout h2{
+
+    text-shadow: -2px 1 brown, 0 2px  brown, 2px 0  brown, 0 -2px  brown;
 }
 
-.imageTestimonial {
-    width: 8rem;
-    height: 8rem;
-    border-radius: 100%;
-    margin: 10px;
-}
 
-.testimonialtext {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
-#press {
-    background-color: salmon;
-}
+
 
 .imageLogos {
     padding: 2rem;
     width: 10rem;
 }
 
-#pricing {
+#experience {
     padding: 2rem;
 }
 
@@ -132,20 +121,17 @@ p {
     margin: 2rem;
 }
 
-#cta {
-    background-color: salmon;
-    color: seashell;
-    padding: 2rem;
-}
+
 
 
 
 /* START 1200 PX NARROW VIEW */
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
 
-.textTitle {
+.textTitle h1{
     text-align: center;
+    font-size: 90px;
 }
 
 .titleImage {
