@@ -24,6 +24,10 @@ td {
     padding: 0 5rem;
 }
 
+a{
+    color: aliceblue;
+}
+
 /* HOME */
 #home {
     font-family: 'Montserrat', sans-serif;
@@ -57,7 +61,7 @@ td {
     text-shadow: -1.5px 0 whitesmoke, 0 1.5px whitesmoke, 1.5px 0 whitesmoke, 0 -1.5px whitesmoke;
 }
 
-.material-symbols-outlined:hover{
+.material-symbols-outlined:hover #home{
     color: palegoldenrod;
 }
 
